@@ -13,3 +13,8 @@ include(
     "test-utils"
 )
 
+sourceControl {
+    gitRepository(URI.create("https://github.com/ha-yi/firebase-java-sdk.git")) {
+        producesModule("dev.gitlive:firebase-java-sdk")
+    }
+}
